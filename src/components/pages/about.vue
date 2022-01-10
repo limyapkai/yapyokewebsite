@@ -19,14 +19,11 @@
             </v-col>
             <v-col cols="12" md="6">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Yap X Yoke Brands contains a series of product lines to peek different consumer needs.
+                We highly regard efforts from Teachers and the Medical Industry.
               </p>
               <blockquote class="text-h4 pa-5 my-4 font-weight-thin">
-                …Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis
+                …Stresses and challenges are inevitable. But do what is best to care for yourself and your family
               </blockquote>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -128,21 +125,24 @@
 
         <SectionsTimeline />
         <timeline> </timeline>
-
+        <brands> </brands>
       </v-col>
     </v-row>
   </section>
 </template>
 
 <script>
+import Brands from '../sections/Brands.vue'
 
 import Timeline from '../sections/Timeline.vue'
 
 export default {
   components: {
     Timeline: Timeline,
+    Brands: Brands,
   },
-  data() {
+  
+    Brandsdata() {
     return {
       heroAlt: [
         {
