@@ -11,6 +11,8 @@ import services from '../components/pages/services';
 
 import Pricing from '../components/sections/Pricing';
 
+import testpage from '../components/pages/testpage';
+
 Vue.use(VueRouter);
 
 const routes = [ 
@@ -23,6 +25,8 @@ const routes = [
     { path: '/services', component: services },
 
     { path: '/innerpricing', component: Pricing },
+
+    { path: '/testpage', component: testpage}
 ];
 
 const router = new VueRouter({
